@@ -1,5 +1,6 @@
 spring:
-  datasource: jdbc:mysql://localhost:3306/sai
-  username: root
-  password: root
-  driver-class-name: com.mysql.cj.jdbc.Driver
+  datasource: 
+    url: jdbc:mysql://localhost:3306/sai
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
