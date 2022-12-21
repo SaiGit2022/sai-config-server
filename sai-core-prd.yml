@@ -1,5 +1,6 @@
 spring:
-  datasource: jdbc:mysql://209.58.148.25:3306/gtkaftry_facturacion
-  username: gtkaftry_admin
-  password: Y2FiYW5pbGxhc18xMjM=
-  driver-class-name: com.mysql.cj.jdbc.Driver
+  datasource: 
+    url: jdbc:mysql://209.58.148.25:3306/gtkaftry_facturacion
+    username: gtkaftry_admin
+    password: Y2FiYW5pbGxhc18xMjM=
+    driver-class-name: com.mysql.cj.jdbc.Driver
